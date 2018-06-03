@@ -1,0 +1,6 @@
+framework module PPAlertViewController {
+  umbrella header "PPAlertViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PPAlertViewController (0.1.0)
+
+DEPENDENCIES:
+  - PPAlertViewController (from `../`)
+
+EXTERNAL SOURCES:
+  PPAlertViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PPAlertViewController: 059cded1a146d313b17176e3807c53b7ba17c96c
+
+PODFILE CHECKSUM: 9f40ff9c598eeb40afd591c9dd2d8e1df55337dc
+
+COCOAPODS: 1.5.0
