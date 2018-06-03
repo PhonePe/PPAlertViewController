@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27BFC24D1013B1A03B5524AA646CE767 /* PPAlertViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB9A0B7C4F015C2A2FA291C40BFC57 /* PPAlertViewButton.swift */; };
+		2DF0FBFF7C2BDD250D754A0672EFE802 /* Pods-PPAlertViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DC195AF48FEA5D88A3FA981400ADF8 /* Pods-PPAlertViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC0F321AEDF42EF4618EF1A93D6E554 /* PPAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB48517C3F9604825251D3A3FF61333 /* PPAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41925A623364A8E3540BBBA7F97D25D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		44994EF20A6EC6C4EAFB263433D8B039 /* PPAlertViewAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DEDECAD415C143247054FF52549F9C /* PPAlertViewAppearence.swift */; };
+		4A67630ACE6F7BE8F5AC24EBED693053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4B8D5E3EEBB34BB2A2A4D904F985A7A6 /* Pods-PPAlertViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5A92F464A53B2718C86763158A5F44 /* Pods-PPAlertViewController_Tests-dummy.m */; };
-		5DB809623C03B0CA76F9F8DC23B40B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		889FF9D0A53D5A6A35620B17FD7A98CA /* Pods-PPAlertViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B0E2A7214936796F5ED2D3D030DB5A /* Pods-PPAlertViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CA87CA03A2E4ADA5421F0CCB7B0C57B /* Pods-PPAlertViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B70A4CE84BFE918B3AA10AF6C8B85D2 /* Pods-PPAlertViewController_Example-dummy.m */; };
-		917F158220C3BC7800BB9E8F /* PPAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F157D20C3BC7700BB9E8F /* PPAlertViewController.swift */; };
-		917F158320C3BC7800BB9E8F /* PPAutolayoutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F157E20C3BC7700BB9E8F /* PPAutolayoutUtils.swift */; };
-		917F158420C3BC7800BB9E8F /* PPAlertViewAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F157F20C3BC7700BB9E8F /* PPAlertViewAppearence.swift */; };
-		917F158520C3BC7800BB9E8F /* PPAlertViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F158020C3BC7700BB9E8F /* PPAlertViewButton.swift */; };
-		917F158620C3BC7800BB9E8F /* PPAlertViewLabelTapppableRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F158120C3BC7700BB9E8F /* PPAlertViewLabelTapppableRange.swift */; };
-		F03062B64328F6B786CE76028735204F /* Pods-PPAlertViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DC195AF48FEA5D88A3FA981400ADF8 /* Pods-PPAlertViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98368A3D44C99E2855A8B97966B6592E /* Pods-PPAlertViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B70A4CE84BFE918B3AA10AF6C8B85D2 /* Pods-PPAlertViewController_Example-dummy.m */; };
+		98DC52C8A94902C731BB8D0232F29972 /* PPAutolayoutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88784FF1664DF5BEA9BB31A0265E2CA /* PPAutolayoutUtils.swift */; };
+		BDB35889FE91F46945C65CCACA6349E6 /* PPAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C205662CC03E017A40AF54668FE8C6F /* PPAlertViewController-dummy.m */; };
+		D3B39FF227D4CE5CD7B591FB14275539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D548238D8E97B1263FA8EBA4034948BB /* PPAlertViewLabelTapppableRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38163BB61044F3031A0E19C798EB75BB /* PPAlertViewLabelTapppableRange.swift */; };
+		DCE29A4156EED3C6AB58302EC279C1A5 /* PPAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCE07870521F8D1524846B0CF500D /* PPAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,52 +28,74 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9194F7301D18B6E0A63D3CB5B95F3E73;
+			remoteGlobalIDString = B5AF57BE8ACFC34996A067C1D47984BE;
 			remoteInfo = "Pods-PPAlertViewController_Example";
+		};
+		63169F590B7D43012690F7E2F53F2E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CE272AA8B67A752EDCE5F8737EEDC9;
+			remoteInfo = PPAlertViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007F137DFD6CB36F649C59EE09C32EAC /* PPAlertViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PPAlertViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C205662CC03E017A40AF54668FE8C6F /* PPAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPAlertViewController-dummy.m"; sourceTree = "<group>"; };
 		1467FE6A3C96968FF940F1E9EE260402 /* Pods-PPAlertViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPAlertViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B2EC9DEA3BFA0EC2481611558757139 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		31A05DCE97B46EBD4CBD7D94C9FA973B /* PPAlertViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PPAlertViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2EB77427974A164B8C1E7F830AE53D3C /* PPAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPAlertViewController.xcconfig; sourceTree = "<group>"; };
+		38163BB61044F3031A0E19C798EB75BB /* PPAlertViewLabelTapppableRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPAlertViewLabelTapppableRange.swift; path = PPAlertViewController/Classes/PPAlertViewLabelTapppableRange.swift; sourceTree = "<group>"; };
 		3CBEADAA811213D169ED6E6842F6DCCE /* Pods-PPAlertViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPAlertViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		4120DA0359935D761F005521E4E36979 /* PPAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPAlertViewController-prefix.pch"; sourceTree = "<group>"; };
 		44983F648ED5BB380FB312D2CA30E923 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469AC43C8784DB019D3BFDD34DDDC31A /* PPAlertViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPAlertViewController.modulemap; sourceTree = "<group>"; };
 		4B70A4CE84BFE918B3AA10AF6C8B85D2 /* Pods-PPAlertViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPAlertViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		4BC812C7A3CE8698534EE84B5918E1EA /* Pods-PPAlertViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPAlertViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		58F82BDA0A5161AB823B6B5802C43586 /* Pods-PPAlertViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPAlertViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B3EC118FB655E36C4E68A2967DD4568 /* Pods-PPAlertViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPAlertViewController_Example.modulemap"; sourceTree = "<group>"; };
 		60ECF2B2322E49D58651BFD7B8E78ED4 /* Pods-PPAlertViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPAlertViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C25169B4685C0D5720BAC64F32B702B /* Pods_PPAlertViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPAlertViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA620E302377217A8ACE3F737C5047 /* Pods-PPAlertViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPAlertViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		81BBB86837970ECBA3CC4DE27DC60D3C /* Pods_PPAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FCCE07870521F8D1524846B0CF500D /* PPAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPAlertViewController.swift; path = PPAlertViewController/Classes/PPAlertViewController.swift; sourceTree = "<group>"; };
 		886FA3C6D114269BC407193FB7BFD885 /* Pods-PPAlertViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPAlertViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8C887BE64D7CCE2A243EC939E0863D6C /* Pods_PPAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB48517C3F9604825251D3A3FF61333 /* PPAlertViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPAlertViewController-umbrella.h"; sourceTree = "<group>"; };
 		8CD3118244E4B0B9C12399E5350E7B96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E542CC56B19ABC490ACE1A41D0C9F0F /* Pods-PPAlertViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPAlertViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		917F157D20C3BC7700BB9E8F /* PPAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPAlertViewController.swift; path = "../../../Documents/ios sample codes/PhonePeDummyAlert/PhonePeDummyAlert/PPAlertViewController.swift"; sourceTree = "<group>"; };
-		917F157E20C3BC7700BB9E8F /* PPAutolayoutUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPAutolayoutUtils.swift; path = "../../../Documents/ios sample codes/PhonePeDummyAlert/PhonePeDummyAlert/PPAutolayoutUtils.swift"; sourceTree = "<group>"; };
-		917F157F20C3BC7700BB9E8F /* PPAlertViewAppearence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPAlertViewAppearence.swift; path = "../../../Documents/ios sample codes/PhonePeDummyAlert/PhonePeDummyAlert/PPAlertViewAppearence.swift"; sourceTree = "<group>"; };
-		917F158020C3BC7700BB9E8F /* PPAlertViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPAlertViewButton.swift; path = "../../../Documents/ios sample codes/PhonePeDummyAlert/PhonePeDummyAlert/PPAlertViewButton.swift"; sourceTree = "<group>"; };
-		917F158120C3BC7700BB9E8F /* PPAlertViewLabelTapppableRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPAlertViewLabelTapppableRange.swift; path = "../../../Documents/ios sample codes/PhonePeDummyAlert/PhonePeDummyAlert/PPAlertViewLabelTapppableRange.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B0E2A7214936796F5ED2D3D030DB5A /* Pods-PPAlertViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPAlertViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9CA2707F6682C60AEFE1EEBE8B2BCA05 /* Pods-PPAlertViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPAlertViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		9FC5628B055909D51A94E67C524DCC39 /* Pods-PPAlertViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPAlertViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A6DC195AF48FEA5D88A3FA981400ADF8 /* Pods-PPAlertViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPAlertViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		B54F12CF6571ABCC04F8B9AE0EF9E6E7 /* Pods-PPAlertViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPAlertViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7708FD942D44ADF296BF2FB3A65371D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B88784FF1664DF5BEA9BB31A0265E2CA /* PPAutolayoutUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPAutolayoutUtils.swift; path = PPAlertViewController/Classes/PPAutolayoutUtils.swift; sourceTree = "<group>"; };
+		C0DEDECAD415C143247054FF52549F9C /* PPAlertViewAppearence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPAlertViewAppearence.swift; path = PPAlertViewController/Classes/PPAlertViewAppearence.swift; sourceTree = "<group>"; };
+		CA4DAB5C654CC151C2F5D2FB0ECAE1DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D23223AD615C59F1CA2DEC6625B5BF81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5A92F464A53B2718C86763158A5F44 /* Pods-PPAlertViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPAlertViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		EA4336592F8EE42344B270529249D0C1 /* PPAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC46A50C0AC75775BB476CFBBD52900 /* Pods-PPAlertViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPAlertViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAF7122F35DB0857CEEA23F70E8565B9 /* Pods-PPAlertViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPAlertViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF5E353C36DF58D442D97E5C4DA36810 /* Pods_PPAlertViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPAlertViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDE64CB1A5F8935E44FF03C217B0258 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FFFB9A0B7C4F015C2A2FA291C40BFC57 /* PPAlertViewButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPAlertViewButton.swift; path = PPAlertViewController/Classes/PPAlertViewButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E74F1CB4829C366D69F232B8B4C4226 /* Frameworks */ = {
+		32DC9CEC1B16C0131941C2F9E7A0A9F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB809623C03B0CA76F9F8DC23B40B44 /* Foundation.framework in Frameworks */,
+				D3B39FF227D4CE5CD7B591FB14275539 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781AFB1CC385237F9F39877577E73D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A67630ACE6F7BE8F5AC24EBED693053 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212E8427080140E7F38BA27E237BD3C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA4DAB5C654CC151C2F5D2FB0ECAE1DB /* LICENSE */,
+				007F137DFD6CB36F649C59EE09C32EAC /* PPAlertViewController.podspec */,
+				ECDE64CB1A5F8935E44FF03C217B0258 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2BADA044C4A344049B699D504B08E8A1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,12 +129,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		441E6EAC3DB0FFA3BA525A014B2FEB91 /* Development Pods */ = {
+		45CA20A2228D2D5C54DD752B54A7CE88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E77222D0294E8A12B23BD745CE7F104 /* PPAlertViewController */,
+				6C25169B4685C0D5720BAC64F32B702B /* Pods_PPAlertViewController_Example.framework */,
+				81BBB86837970ECBA3CC4DE27DC60D3C /* Pods_PPAlertViewController_Tests.framework */,
+				EA4336592F8EE42344B270529249D0C1 /* PPAlertViewController.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AC3DE6C0E9D42119214B88E43807C0 /* PPAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0DEDECAD415C143247054FF52549F9C /* PPAlertViewAppearence.swift */,
+				FFFB9A0B7C4F015C2A2FA291C40BFC57 /* PPAlertViewButton.swift */,
+				83FCCE07870521F8D1524846B0CF500D /* PPAlertViewController.swift */,
+				38163BB61044F3031A0E19C798EB75BB /* PPAlertViewLabelTapppableRange.swift */,
+				B88784FF1664DF5BEA9BB31A0265E2CA /* PPAutolayoutUtils.swift */,
+				212E8427080140E7F38BA27E237BD3C8 /* Pod */,
+				7AABE893E9A74974B9F963DBE79C986A /* Support Files */,
+			);
+			name = PPAlertViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		60CFD78841ACF288CC06C56A1161B1A0 /* Pods-PPAlertViewController_Example */ = {
@@ -120,39 +172,37 @@
 			path = "Target Support Files/Pods-PPAlertViewController_Example";
 			sourceTree = "<group>";
 		};
-		639004ACC5DFFFF2214E8D197D1DF1F3 /* Pod */ = {
+		7AABE893E9A74974B9F963DBE79C986A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				917F157F20C3BC7700BB9E8F /* PPAlertViewAppearence.swift */,
-				917F158020C3BC7700BB9E8F /* PPAlertViewButton.swift */,
-				917F157D20C3BC7700BB9E8F /* PPAlertViewController.swift */,
-				917F158120C3BC7700BB9E8F /* PPAlertViewLabelTapppableRange.swift */,
-				917F157E20C3BC7700BB9E8F /* PPAutolayoutUtils.swift */,
-				D7708FD942D44ADF296BF2FB3A65371D /* LICENSE */,
-				31A05DCE97B46EBD4CBD7D94C9FA973B /* PPAlertViewController.podspec */,
-				2B2EC9DEA3BFA0EC2481611558757139 /* README.md */,
+				D23223AD615C59F1CA2DEC6625B5BF81 /* Info.plist */,
+				469AC43C8784DB019D3BFDD34DDDC31A /* PPAlertViewController.modulemap */,
+				2EB77427974A164B8C1E7F830AE53D3C /* PPAlertViewController.xcconfig */,
+				0C205662CC03E017A40AF54668FE8C6F /* PPAlertViewController-dummy.m */,
+				4120DA0359935D761F005521E4E36979 /* PPAlertViewController-prefix.pch */,
+				8AB48517C3F9604825251D3A3FF61333 /* PPAlertViewController-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PPAlertViewController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				441E6EAC3DB0FFA3BA525A014B2FEB91 /* Development Pods */,
+				A6704DF05E4E0E284A5F780B8666313C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FA1E3296C1808B5B6868C5DFA8BE88B3 /* Products */,
+				45CA20A2228D2D5C54DD752B54A7CE88 /* Products */,
 				2BADA044C4A344049B699D504B08E8A1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E77222D0294E8A12B23BD745CE7F104 /* PPAlertViewController */ = {
+		A6704DF05E4E0E284A5F780B8666313C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				639004ACC5DFFFF2214E8D197D1DF1F3 /* Pod */,
+				55AC3DE6C0E9D42119214B88E43807C0 /* PPAlertViewController */,
 			);
-			name = PPAlertViewController;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -189,23 +239,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FA1E3296C1808B5B6868C5DFA8BE88B3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF5E353C36DF58D442D97E5C4DA36810 /* Pods_PPAlertViewController_Example.framework */,
-				8C887BE64D7CCE2A243EC939E0863D6C /* Pods_PPAlertViewController_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6640A41D5691F8D5AEF71F4423758BCB /* Headers */ = {
+		B1080EDD1BDA0BED3430958218FAB7E1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03062B64328F6B786CE76028735204F /* Pods-PPAlertViewController_Example-umbrella.h in Headers */,
+				3DC0F321AEDF42EF4618EF1A93D6E554 /* PPAlertViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				889FF9D0A53D5A6A35620B17FD7A98CA /* Pods-PPAlertViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0E49DED4A5FAA2F7E38750CFA9412E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF0FBFF7C2BDD250D754A0672EFE802 /* Pods-PPAlertViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,24 +284,42 @@
 			);
 			name = "Pods-PPAlertViewController_Tests";
 			productName = "Pods-PPAlertViewController_Tests";
-			productReference = 8C887BE64D7CCE2A243EC939E0863D6C /* Pods_PPAlertViewController_Tests.framework */;
+			productReference = 81BBB86837970ECBA3CC4DE27DC60D3C /* Pods_PPAlertViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9194F7301D18B6E0A63D3CB5B95F3E73 /* Pods-PPAlertViewController_Example */ = {
+		B3CE272AA8B67A752EDCE5F8737EEDC9 /* PPAlertViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0152A88E9A9A09481595BBAC9C708FA6 /* Build configuration list for PBXNativeTarget "Pods-PPAlertViewController_Example" */;
+			buildConfigurationList = 0FF4BAEDABA717F19264D0FC5443DE56 /* Build configuration list for PBXNativeTarget "PPAlertViewController" */;
 			buildPhases = (
-				4D2DDBBE2291DF6D32BD6174385FD041 /* Sources */,
-				3E74F1CB4829C366D69F232B8B4C4226 /* Frameworks */,
-				6640A41D5691F8D5AEF71F4423758BCB /* Headers */,
+				504D57EC7AEC37D966ED82E7873D002E /* Sources */,
+				32DC9CEC1B16C0131941C2F9E7A0A9F5 /* Frameworks */,
+				B1080EDD1BDA0BED3430958218FAB7E1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = PPAlertViewController;
+			productName = PPAlertViewController;
+			productReference = EA4336592F8EE42344B270529249D0C1 /* PPAlertViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5AF57BE8ACFC34996A067C1D47984BE /* Pods-PPAlertViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DB450C207D6E1B1679D8A8AD0BF04E /* Build configuration list for PBXNativeTarget "Pods-PPAlertViewController_Example" */;
+			buildPhases = (
+				AFC70A8037911B6BB6349E2C8E2F0BFE /* Sources */,
+				781AFB1CC385237F9F39877577E73D74 /* Frameworks */,
+				FD0E49DED4A5FAA2F7E38750CFA9412E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560625C38D8B8DEDB6C219A8DF3A049D /* PBXTargetDependency */,
+			);
 			name = "Pods-PPAlertViewController_Example";
 			productName = "Pods-PPAlertViewController_Example";
-			productReference = FF5E353C36DF58D442D97E5C4DA36810 /* Pods_PPAlertViewController_Example.framework */;
+			productReference = 6C25169B4685C0D5720BAC64F32B702B /* Pods_PPAlertViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -263,11 +330,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					9194F7301D18B6E0A63D3CB5B95F3E73 = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,27 +339,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FA1E3296C1808B5B6868C5DFA8BE88B3 /* Products */;
+			productRefGroup = 45CA20A2228D2D5C54DD752B54A7CE88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9194F7301D18B6E0A63D3CB5B95F3E73 /* Pods-PPAlertViewController_Example */,
+				B5AF57BE8ACFC34996A067C1D47984BE /* Pods-PPAlertViewController_Example */,
 				5C5B4E76871CEBB83314F1BB60569618 /* Pods-PPAlertViewController_Tests */,
+				B3CE272AA8B67A752EDCE5F8737EEDC9 /* PPAlertViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D2DDBBE2291DF6D32BD6174385FD041 /* Sources */ = {
+		504D57EC7AEC37D966ED82E7873D002E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA87CA03A2E4ADA5421F0CCB7B0C57B /* Pods-PPAlertViewController_Example-dummy.m in Sources */,
-				917F158520C3BC7800BB9E8F /* PPAlertViewButton.swift in Sources */,
-				917F158420C3BC7800BB9E8F /* PPAlertViewAppearence.swift in Sources */,
-				917F158220C3BC7800BB9E8F /* PPAlertViewController.swift in Sources */,
-				917F158620C3BC7800BB9E8F /* PPAlertViewLabelTapppableRange.swift in Sources */,
-				917F158320C3BC7800BB9E8F /* PPAutolayoutUtils.swift in Sources */,
+				44994EF20A6EC6C4EAFB263433D8B039 /* PPAlertViewAppearence.swift in Sources */,
+				27BFC24D1013B1A03B5524AA646CE767 /* PPAlertViewButton.swift in Sources */,
+				BDB35889FE91F46945C65CCACA6349E6 /* PPAlertViewController-dummy.m in Sources */,
+				DCE29A4156EED3C6AB58302EC279C1A5 /* PPAlertViewController.swift in Sources */,
+				D548238D8E97B1263FA8EBA4034948BB /* PPAlertViewLabelTapppableRange.swift in Sources */,
+				98DC52C8A94902C731BB8D0232F29972 /* PPAutolayoutUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC70A8037911B6BB6349E2C8E2F0BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98368A3D44C99E2855A8B97966B6592E /* Pods-PPAlertViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,15 +383,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		560625C38D8B8DEDB6C219A8DF3A049D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPAlertViewController;
+			target = B3CE272AA8B67A752EDCE5F8737EEDC9 /* PPAlertViewController */;
+			targetProxy = 63169F590B7D43012690F7E2F53F2E58 /* PBXContainerItemProxy */;
+		};
 		5EFE5C7D01FA3585DC2DF96FC2526B1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PPAlertViewController_Example";
-			target = 9194F7301D18B6E0A63D3CB5B95F3E73 /* Pods-PPAlertViewController_Example */;
+			target = B5AF57BE8ACFC34996A067C1D47984BE /* Pods-PPAlertViewController_Example */;
 			targetProxy = 02A14604AAB7423268BB0896A05CF64B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		15152F44C7BE2F9FF268DA5D1708D344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB77427974A164B8C1E7F830AE53D3C /* PPAlertViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPAlertViewController/PPAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPAlertViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPAlertViewController/PPAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = PPAlertViewController;
+				PRODUCT_NAME = PPAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2C3735DF8E508CEECF150E0E20006996 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BC812C7A3CE8698534EE84B5918E1EA /* Pods-PPAlertViewController_Tests.release.xcconfig */;
@@ -388,12 +498,10 @@
 			};
 			name = Debug;
 		};
-		47F746B065487E7ABE7E6A08B58CAB36 /* Debug */ = {
+		536FB7082E0C5F5B5FEC7BD06D2DF4CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71CA620E302377217A8ACE3F737C5047 /* Pods-PPAlertViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 2EB77427974A164B8C1E7F830AE53D3C /* PPAlertViewController.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -403,33 +511,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PPAlertViewController_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PPAlertViewController/PPAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPAlertViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PPAlertViewController_Example/Pods-PPAlertViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/PPAlertViewController/PPAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = PPAlertViewController;
+				PRODUCT_NAME = PPAlertViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		53D8C90A75D94173D89624F03CF9BA20 /* Release */ = {
+		56E746B8CEDC8084777FD1AA16C5F1A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B54F12CF6571ABCC04F8B9AE0EF9E6E7 /* Pods-PPAlertViewController_Example.release.xcconfig */;
+			baseConfigurationReference = 71CA620E302377217A8ACE3F737C5047 /* Pods-PPAlertViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -452,13 +557,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -577,18 +682,63 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FFE4B7BBA35A1A2CEB9971CAE07FD3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54F12CF6571ABCC04F8B9AE0EF9E6E7 /* Pods-PPAlertViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PPAlertViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PPAlertViewController_Example/Pods-PPAlertViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0152A88E9A9A09481595BBAC9C708FA6 /* Build configuration list for PBXNativeTarget "Pods-PPAlertViewController_Example" */ = {
+		0FF4BAEDABA717F19264D0FC5443DE56 /* Build configuration list for PBXNativeTarget "PPAlertViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47F746B065487E7ABE7E6A08B58CAB36 /* Debug */,
-				53D8C90A75D94173D89624F03CF9BA20 /* Release */,
+				536FB7082E0C5F5B5FEC7BD06D2DF4CE /* Debug */,
+				15152F44C7BE2F9FF268DA5D1708D344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DB450C207D6E1B1679D8A8AD0BF04E /* Build configuration list for PBXNativeTarget "Pods-PPAlertViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E746B8CEDC8084777FD1AA16C5F1A8 /* Debug */,
+				FFE4B7BBA35A1A2CEB9971CAE07FD3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

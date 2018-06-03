@@ -40,8 +40,8 @@ public final class PPAlertViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(appearence: PPAlertViewAppearence,
-         delegate: PPAlertViewControllerDelegate? = nil) {
+    public init(appearence: PPAlertViewAppearence,
+                delegate: PPAlertViewControllerDelegate? = nil) {
         self.appearence = appearence
         self.customView = appearence.customView
         self.delegate = delegate
@@ -52,7 +52,7 @@ public final class PPAlertViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = appearence.backgroundViewColor
+        self.view.backgroundColor = UIColor(white: 0, alpha: 0.4)
         setupViews()
     }
     
@@ -76,8 +76,6 @@ public final class PPAlertViewController: UIViewController {
         backgroundView.backgroundColor = appearence.backgroundViewColor
         backgroundView.layer.cornerRadius = appearence.cornerRadius
         backgroundView.layer.masksToBounds = true
-        backgroundView.layer.borderColor = UIColor.black.cgColor
-        backgroundView.layer.borderWidth = 0.5
         
         if let customView = self.customView {
             //Add spacer view
@@ -94,6 +92,7 @@ public final class PPAlertViewController: UIViewController {
         addButtonsAndSeparator()
         
         bottomSpacingView = UIView().ppe_enableAutolayout().setHeightConstraint(appearence.margin.bottom)
+        bottomSpacingView.backgroundColor = .clear
         containerStackView_V.addArrangedSubview(bottomSpacingView)
     }
     
@@ -185,6 +184,15 @@ public final class PPAlertViewController: UIViewController {
             buttonStackView_H.addArrangedSubview(buttonSpacer)
         }
         
+    }
+    
+    public override func viewDidLayoutSubviews() {
+        backgroundView.layer.masksToBounds = true
+        backgroundView.clipsToBounds = true
+        backgroundView.layer.shadowColor = UIColor.black.cgColor
+        backgroundView.layer.shadowPath = UIBezierPath(rect: backgroundView.bounds).cgPath
+        backgroundView.layer.shadowOpacity = 1.0
+        backgroundView.layer.shadowRadius = 10.0
     }
     
     @objc

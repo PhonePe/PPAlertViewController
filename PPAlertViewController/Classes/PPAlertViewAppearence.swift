@@ -103,7 +103,7 @@ public struct PPAlertViewAppearence {
                 subtitle: Label = Label(),
                 separator: Separator = Separator(),
                 buttonHeight: CGFloat = 40.0,
-                backgroundViewColor: UIColor = .clear,
+                backgroundViewColor: UIColor = .white,
                 cornerRadius: CGFloat = 5.0,
                 margin: Margin = Margin(),
                 tappableTitleRanges: [PPAlertViewLabelTapppableRange] = []) {

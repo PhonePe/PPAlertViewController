@@ -23,7 +23,8 @@ final class TestCustomView: UIView {
     
     func addSubviews() {
         label = UILabel()
-        label.text = "This is a custom label to demonstrate adding custom views"
+        label.textAlignment = .center
+        label.text = "Add custom views here!"
         label.numberOfLines = 0
         label.ppe_add(self).ppe_enableAutolayout().ppe_pin(self)
     }

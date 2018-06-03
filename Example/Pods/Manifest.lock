@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PPAlertViewController: 059cded1a146d313b17176e3807c53b7ba17c96c
+  PPAlertViewController: 944f0a5a477e524b581df780876a6d350709d056
 
 PODFILE CHECKSUM: 9f40ff9c598eeb40afd591c9dd2d8e1df55337dc
 
